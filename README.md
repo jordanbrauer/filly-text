@@ -10,7 +10,7 @@ __Sections:__
 
 ## How to Install:
 
-1. Start by downloading the [latest release](https://github.com/jordanbrauer/filly-text/releases) of this repository.
+1. Start by downloading the <a target="_blank" href="https://github.com/jordanbrauer/filly-text/releases">latest release</a> of this repository.
 2. Open the `dist/` directory, and next the `/app/` directory.
 3. Copy the `fillytext` folder and paste it into your projects `js` folder.
 4. Add this line of code to the `<head>` of your project.
