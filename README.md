@@ -45,4 +45,4 @@ For those of you who are looking to contribute to or customize the plugin, the `
 
 ## Credits:
 
-__Author:__ Jordan Brauer.
+__Author:__ [Jordan Brauer](https://twitter.com/jordbrauer).
