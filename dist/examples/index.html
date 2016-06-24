@@ -1,0 +1,46 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>fillytext.js</title>
+    <meta name="author" content="Jordan Brauer">
+    <meta name="description" content="Useful to help take away the bloaty filler text when building and testing projects.">
+    <script src="https://code.jquery.com/jquery-2.2.4.min.js" integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44=" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+    <script src="https://use.fontawesome.com/c477074d77.js"></script>
+    <!-- fillytext.js -->
+    <script type="text/javascript" src="js/fillytext/jquery.fillytext.min.js"></script>
+  </head>
+  <body>
+    <div id="page" class="container">
+      <h1>fillytext.js <small>Examples</small></h1>
+      <hr>
+      <div class="container-fluid">
+        <h2 class="h3">Lorem Ipsum <small>(loremipsum)</small></h2>
+        <p class="h4 text-center"><pre>&lt;p class="filler-1"&gt;&lt;/p&gt;<br><br>&lt;script type="text/javascript"&gt;<br>  $('p.filler-1').fillyText('loremipsum');<br>&lt;/script&gt;</pre></p>
+        <p class="text-center text-muted">Results in<br><i class="fa fa-angle-down fa-3x"></i></p>
+        <p class="filler-1"></p>
+      </div>
+      <div class="container-fluid">
+        <h2 class="h3">Pangram <small>(pangram)</small></h2>
+        <p class="h4 text-center"><pre>&lt;p class="filler-2"&gt;&lt;/p&gt;<br><br>&lt;script type="text/javascript"&gt;<br>  $('p.filler-2').fillyText('pangram');<br>&lt;/script&gt;</pre></p>
+        <p class="text-center text-muted">Results in<br><i class="fa fa-angle-down fa-3x"></i></p>
+        <p class="filler-2"></p>
+      </div>
+      <div class="container-fluid">
+        <h2 class="h3">Far Away <small>(faraway)</small></h2>
+        <p class="h4 text-center"><pre>&lt;p class="filler-3"&gt;&lt;/p&gt;<br><br>&lt;script type="text/javascript"&gt;<br>  $('p.filler-3').fillyText('faraway');<br>&lt;/script&gt;</pre></p>
+        <p class="text-center text-muted">Results in<br><i class="fa fa-angle-down fa-3x"></i></p>
+        <p class="filler-3"></p>
+      </div>
+    </div>
+
+    <script type="text/javascript">
+        $('p.filler-1').fillyText('loremipsum');
+        $('p.filler-2').fillyText('pangram');
+        $('p.filler-3').fillyText('faraway');
+    </script>
+  </body>
+</html>
