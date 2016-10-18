@@ -1,9 +1,11 @@
-var assert = require('assert');
-
-describe('Array', function() {
-  describe('#indexOf()', function() {
-    it('should return -1 when the value is not present.', function()  {
-      assert.equal(-1, [1,2,3].indexOf(4));
-    });
-  });
-});
+// var chai = require('chai');
+// var assert = chai.assert;
+// // var assert = require('assert');
+//
+// describe('Array', function() {
+//   it('should start empty', function() {
+//     var arr = [];
+//
+//     assert.equal(arr.length, 0, 'Array length was not 0.');
+//   });
+// });

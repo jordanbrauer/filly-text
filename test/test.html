@@ -1,0 +1,31 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>test_fillytext.js</title>
+    <link rel="stylesheet" href="node_modules/mocha/mocha.css">
+  </head>
+  <body>
+    <div id="mocha"></div>
+
+    <script type="text/javascript" src="./node_modules/mocha/mocha.js"></script>
+    <script type="text/javascript" src="./node_modules/chai/chai.js"></script>
+
+    <script type="text/javascript">
+      mocha.setup('bdd');
+    </script>
+
+    <!-- code to be tested -->
+    <!-- ... -->
+    <!-- /code to be tested -->
+
+    <!-- test files -->
+    <script type="text/javascript" src="test/test.js"></script>
+    <!-- /test files -->
+
+    <script type="text/javascript">
+      mocha.run();
+    </script>
+  </body>
+</html>
