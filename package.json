@@ -37,6 +37,7 @@
   "devDependencies": {
     "babel-cli": "^6.16.0",
     "babel-preset-latest": "^6.16.0",
+    "chai": "^3.5.0",
     "del": "^2.2.2",
     "gulp": "^3.9.1",
     "gulp-concat": "^2.6.0",
