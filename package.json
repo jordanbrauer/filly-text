@@ -4,6 +4,7 @@
   "description": "A plugin that generates filler text when you load your page rather than pasting it into your source code and bloating it.",
   "main": "fillytext.js",
   "scripts": {
+    "test": "./node_modules/.bin/istanbul cover ./node_modules/tape/bin/tape ./test/*.js",
     "build": "babel src -d dist"
   },
   "repository": {
