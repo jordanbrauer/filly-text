@@ -1,5 +1,9 @@
 # fillytext.js
 
+__Repository Status:__
+
+[![Build Status](https://travis-ci.org/jordanbrauer/filly-text.svg?branch=master)](https://travis-ci.org/jordanbrauer/filly-text)
+
 __Summary:__ A simple, lightweight jQuery plugin that aims to reduce the _bloaty-ness_ from filler text during the building &amp; testing processes.
 
 __Sections:__
