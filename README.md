@@ -2,7 +2,7 @@
 
 __Repository Status:__
 
-[![Build Status](https://travis-ci.org/jordanbrauer/filly-text.svg?branch=master)](https://travis-ci.org/jordanbrauer/filly-text) [![codecov](https://codecov.io/gh/jordanbrauer/filly-text/branch/master/graph/badge.svg)](https://codecov.io/gh/jordanbrauer/filly-text)
+[![Build Status](https://travis-ci.org/jordanbrauer/filly-text.svg?branch=master)](https://travis-ci.org/jordanbrauer/filly-text) <!-- [![codecov](https://codecov.io/gh/jordanbrauer/filly-text/branch/master/graph/badge.svg)](https://codecov.io/gh/jordanbrauer/filly-text) -->
  [![dependencies Status](https://david-dm.org/jordanbrauer/filly-text/status.svg)](https://david-dm.org/jordanbrauer/filly-text) [![devDependencies Status](https://david-dm.org/jordanbrauer/filly-text/dev-status.svg)](https://david-dm.org/jordanbrauer/filly-text?type=dev)
 
 __Summary:__ A simple, lightweight jQuery plugin that aims to reduce the _bloaty-ness_ from filler text during the building &amp; testing processes.
