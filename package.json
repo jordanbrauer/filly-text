@@ -1,15 +1,10 @@
 {
   "name": "fillytext.js",
   "version": "0.0.1",
+  "license": "MIT",
+  "author": "Jordan Brauer <jbrauer.inc@gmail.com>",
+  "contributors": {},
   "description": "A plugin that generates filler text when you load your page rather than pasting it into your source code and bloating it.",
-  "main": "fillytext.js",
-  "scripts": {
-    "build": "babel src -d dist"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/jordanbrauer/filly-text.git"
-  },
   "keywords": [
     "lorem",
     "ipsum",
@@ -23,8 +18,15 @@
     "dev",
     "development"
   ],
-  "author": "Jordan Brauer <jbrauer.inc@gmail.com>",
-  "license": "MIT",
+  "main": "fillytext.js",
+  "scripts": {
+    "test": " ",
+    "build": "babel src -d dist"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jordanbrauer/filly-text.git"
+  },
   "bugs": {
     "url": "https://github.com/jordanbrauer/filly-text/issues"
   },
@@ -38,13 +40,6 @@
     "babel-cli": "^6.16.0",
     "babel-preset-latest": "^6.16.0",
     "chai": "^3.5.0",
-    "codecov": "^1.0.1",
-    "del": "^2.2.2",
-    "gulp": "^3.9.1",
-    "gulp-concat": "^2.6.0",
-    "gulp-rename": "^1.2.2",
-    "gulp-uglify": "^2.0.0",
-    "istanbul": "^0.4.5",
     "mocha": "^3.1.2"
   }
 }
