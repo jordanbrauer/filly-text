@@ -4,10 +4,10 @@ node_js:
   - "6.1"
   - "5.11"
   # - "0.6"
-  - "iojs"
-install:
-  - npm install -g codecov
-script:
-  - istanbul cover ./node_modules/mocha/bin/_mocha --report lcovonly -- -R spec && codecov
-after_success:
-  - bash <(curl -s https://codecov.io/bash)
+  # - "iojs"
+# install:
+#   - npm install -g codecov
+# script:
+#   - istanbul cover ./node_modules/mocha/bin/_mocha --report lcovonly -- -R spec && codecov
+# after_success:
+#   - bash <(curl -s https://codecov.io/bash)
