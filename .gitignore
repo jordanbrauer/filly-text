@@ -1,6 +1,9 @@
 ### Custom ###
 # place custom/project specific ignores here.
 dist
+js/addClass.js
+test/addClassTest.js
+.codecov.yml
 
 ### macOS ###
 *.DS_Store
