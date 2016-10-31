@@ -4,6 +4,7 @@ dist
 js/addClass.js
 test/addClassTest.js
 .codecov.yml
+fillytext.js
 
 ### macOS ###
 *.DS_Store

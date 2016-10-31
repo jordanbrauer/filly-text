@@ -40,22 +40,23 @@
 
     <!-- mocha interface -->
     <script type="text/javascript">
-    const expect = chai.expect;
-    mocha.setup('bdd');
+      const expect = chai.expect;
+      mocha.setup('bdd');
     </script>
 
     <!-- subjects -->
     <script type="text/javascript" src="../dist/findElementsByAttribute.js"></script>
+    <script type="text/javascript" src="../dist/generateText.js"></script>
     <!-- /subjects -->
 
     <!-- test scripts -->
     <script type="text/javascript" src="findElementsByAttributeTest.js"></script>
-    <script type="text/javascript" src="getFillyTextDatasetTest.js"></script>
+    <script type="text/javascript" src="generateTextTest.js"></script>
     <!-- /test scripts -->
 
     <!-- run tests -->
     <script type="text/javascript">
-    mocha.run();
+      mocha.run();
     </script>
   </body>
 </html>
