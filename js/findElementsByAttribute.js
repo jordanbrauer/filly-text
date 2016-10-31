@@ -1,8 +1,10 @@
-var findElementsByAttribute = function(attribute) {
-  var nodeList = document.querySelectorAll('[' + attribute + ']');
-  var nodeArray = [];
+'use strict';
 
-  for (var i = 0; i < nodeList.length; i++) {
+const findElementsByAttribute = (attribute) => {
+  let nodeList = document.querySelectorAll('[' + attribute + ']');
+  let nodeArray = [];
+
+  for (let i = 0; i < nodeList.length; i++) {
     nodeArray.push(nodeList[i]);
   }
 
