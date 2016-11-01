@@ -12,12 +12,11 @@ Next, install project dependencies,
 
 _**Note:** If you don't already have gulp installed globally, do so with,_ `$ npm install -g gulp`
 
-
 ### Linter Installation
 
-This project uses a JavaScript linter to ensure consistent and readable code from all contributors!
-
 _**Note:** Skip this step if you already have the `linter` and `linter-eslint` installed on your editor._
+
+This project uses a JavaScript linter to ensure consistent and readable code from all contributors!
 
 Install linter and linter-eslint via Atom Package Manager (apm),
 <br> `$ apm install linter linter-eslint`
