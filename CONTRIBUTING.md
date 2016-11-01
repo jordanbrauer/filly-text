@@ -30,19 +30,16 @@ Install them through the atom interface (`ctrl` + `,` / `cmd` + `,`)!
 
 Use these commands to help you while contributing,
 
-__Build Task:__
-<br>`$ gulp build`,
+__Build Task:__ `$ gulp build`,
 
 Run this command to transpile all files in `./js` with babel into ES2015 script for the browser.
 
 The `build` script also calls `clean` before it runs to ensure no conflicts.
 
-__Watch Task:__
-<br> `$ gulp watch`,
+__Watch Task:__ `$ gulp watch`,
 
 Run this command to make gulp monitor `./js` for changes and run `build` each time it detects a change. This is useful for long coding sessions. Cancel it like you would any other batch process, (`ctrl` + `c`)
 
-__Clean Task:__
-<br> `$ gulp clean`
+__Clean Task:__ `$ gulp clean`,
 
 Run this command to delete all transpiled files within `./dist`.
