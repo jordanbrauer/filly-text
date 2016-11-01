@@ -1,9 +1,7 @@
-'use strict';
-
 describe('generateText', () => {
   // test case 1
   it('should return a string with a length greater than 0', () => {
-    let dataFillyText = findElementsByAttribute('data-fillytext');
+    const dataFillyText = findElementsByAttribute('data-fillytext');
 
     dataFillyText.forEach(generateText);
 
