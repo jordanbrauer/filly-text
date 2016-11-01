@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>fillytext_testsuite</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/foundation/6.2.4/foundation.min.css" integrity="sha256-NqI559iHqiWe5VxDi9mXE8i83ghn8Ru8BINyiPN7lDg=" crossorigin="anonymous">
-    <link rel="stylesheet" href="../node_modules/mocha/mocha.css">
+    <link rel="stylesheet" href="node_modules/mocha/mocha.css">
   </head>
   <body>
     <div id="stage" class="expanded row">
@@ -20,6 +20,8 @@
         <div id="subjects">
           <!-- expected falsies -->
           <!-- 1 --> <p id="test1" class="test1"></p>
+          <!-- 1 --> <p id="test5" class="test5"></p>
+          <!-- 1 --> <p id="test6" class="test6"></p>
 
           <!-- expected truthies -->
           <!-- 1 --> <p data-fillytext="2 paragraphs of lorem"></p>
@@ -35,8 +37,8 @@
     </div> <!-- /.row -->
 
     <!-- testing libraries -->
-    <script type="text/javascript" src="../node_modules/mocha/mocha.js"></script>
-    <script type="text/javascript" src="../node_modules/chai/chai.js"></script>
+    <script type="text/javascript" src="node_modules/mocha/mocha.js"></script>
+    <script type="text/javascript" src="node_modules/chai/chai.js"></script>
 
     <!-- mocha interface -->
     <script type="text/javascript">
@@ -45,13 +47,13 @@
     </script>
 
     <!-- subjects -->
-    <script type="text/javascript" src="../dist/findElementsByAttribute.js"></script>
-    <script type="text/javascript" src="../dist/generateText.js"></script>
+    <script type="text/javascript" src="dist/findElementsByAttribute.js"></script>
+    <script type="text/javascript" src="dist/generateText.js"></script>
     <!-- /subjects -->
 
     <!-- test scripts -->
-    <script type="text/javascript" src="findElementsByAttributeTest.js"></script>
-    <script type="text/javascript" src="generateTextTest.js"></script>
+    <script type="text/javascript" src="test/findElementsByAttributeTest.js"></script>
+    <script type="text/javascript" src="test/generateTextTest.js"></script>
     <!-- /test scripts -->
 
     <!-- run tests -->
