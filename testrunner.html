@@ -6,6 +6,9 @@
     <title>fillytext_testsuite</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/foundation/6.2.4/foundation.min.css" integrity="sha256-NqI559iHqiWe5VxDi9mXE8i83ghn8Ru8BINyiPN7lDg=" crossorigin="anonymous">
     <link rel="stylesheet" href="node_modules/mocha/mocha.css">
+    <style media="screen">
+      p { border: 1px solid #ccc; }
+    </style>
   </head>
   <body>
     <div id="stage" class="expanded row">
@@ -18,18 +21,20 @@
 
       <div class="columns small-12 medium-6 medium-pull-6 large-6">
         <div id="subjects">
+          <h2>Exptected Failures</h2>
           <!-- expected falsies -->
-          <!-- 1 --> <p id="test1" class="test1"></p>
+          <!-- 0 --> <p id="test1" class="test1"></p>
           <!-- 1 --> <p id="test5" class="test5"></p>
-          <!-- 1 --> <p id="test6" class="test6"></p>
+          <!-- 2 --> <p id="test6" class="test6"></p>
 
+          <h2>Expected Passes</h2>
           <!-- expected truthies -->
-          <!-- 1 --> <p data-fillytext="2 paragraphs of lorem"></p>
-          <!-- 2 --> <p data-fillytext="1 sentance of lorem"></p>
-          <!-- 3 --> <p data-fillytext="1 to 3 paragraph of lorem"></p>
-          <!-- 4 --> <p id="test2" class="test2" data-fillytext="1 paragraph of lorem"></p>
-          <!-- 5 --> <p id="test3" class="test3" data-fillytext="3 words of lorem"></p>
-          <!-- 6 --> <p id="test4" class="test4" data-fillytext="1 to 2 sentances of lorem"></p>
+          <!-- 0 --> <p data-fillytext="2 paragraphs of lorem"></p>
+          <!-- 1 --> <p data-fillytext="1 sentance of lorem"></p>
+          <!-- 2 --> <p data-fillytext="1 to 3 paragraph of lorem"></p>
+          <!-- 3 --> <p id="test2" class="test2" data-fillytext="1 paragraph of lorem"></p>
+          <!-- 4 --> <p id="test3" class="test3" data-fillytext="3 words of lorem"></p>
+          <!-- 5 --> <p id="test4" class="test4" data-fillytext="1 to 2 sentances of lorem"></p>
 
         </div> <!-- /#subjects -->
       </div> <!-- /.col -->
