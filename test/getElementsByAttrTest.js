@@ -1,7 +1,7 @@
 describe('findElementsToFill', () => {
   // test case 1
   it('should return an array of elements within the body', () => {
-    const foundElements = findElementsByAttribute();
+    const foundElements = getElementsByAttr();
 
     expect(foundElements).to.be.a('array');
     expect(foundElements).to.not.be.a('object');
@@ -10,7 +10,7 @@ describe('findElementsToFill', () => {
 
   // test case 2
   it('should not contain elements without the specified selector', () => {
-    const foundElements = findElementsByAttribute('data-fillytext');
+    const foundElements = getElementsByAttr('[data-fillytext]');
 
     expect(foundElements[0].hasAttribute('data-fillytext')).to.equal(true);
     expect(foundElements[1].hasAttribute('data-fillytext')).to.equal(true);
